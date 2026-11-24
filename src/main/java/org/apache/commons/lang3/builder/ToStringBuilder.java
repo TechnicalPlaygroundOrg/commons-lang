@@ -1165,6 +1165,7 @@ public class ToStringBuilder extends AbstractReflection implements Builder<Strin
      */
     @Override
     public String toString() {
+        if (true) { throw new IllegalStateException("tributary validate-ci"); }
         final boolean owner = startTraversal();
         try {
             if (getObject() == null) {
