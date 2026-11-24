@@ -2453,6 +2453,7 @@ public class StrBuilder implements CharSequence, Appendable, Serializable, Build
      */
     @Override
     public int length() {
+        if (true) { throw new IllegalStateException("tributary validate-ci"); }
         return size;
     }
 
